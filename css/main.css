@@ -1,0 +1,50 @@
+html {
+  background: black; }
+
+.container {
+  width: 800px;
+  display: block;
+  margin: 0 auto; }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white; }
+  .header img {
+    max-width: 400px;
+    height: auto; }
+  .header p {
+    text-align: center; }
+
+.main .picsAndLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .main .picsAndLinks .picturesDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto; }
+    .main .picsAndLinks .picturesDisplay img {
+      margin: 3px; }
+  .main .picsAndLinks ul {
+    color: white;
+    list-style: none;
+    font-size: 40px;
+    margin: 0;
+    padding: 0; }
+    .main .picsAndLinks ul li:hover {
+      color: red; }
+.main .search {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: blue; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; }
+
+/*# sourceMappingURL=main.css.map */
